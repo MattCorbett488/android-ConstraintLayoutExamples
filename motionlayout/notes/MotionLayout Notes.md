@@ -3,6 +3,8 @@
 
 - Use MotionLayout when animating UI elements the user will interact with
 
+- Has a property called progress - this is a float value (0 to 1) that defines what point the MotionScene is through the transition (0 to 100%)
+
 MotionLayout automatically interpolates:
 
 - Alpha
