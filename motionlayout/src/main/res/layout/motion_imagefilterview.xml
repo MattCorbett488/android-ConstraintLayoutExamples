@@ -16,10 +16,4 @@
         android:layout_width="128dp"
         android:layout_height="128dp"
         app:srcCompat="@drawable/sanic_16bit" />
-
-    <android.support.constraint.utils.ImageFilterView
-        android:id="@+id/contrastImage"
-        android:layout_width="128dp"
-        android:layout_height="128dp"
-        app:srcCompat="@drawable/sanic_good" />
 </android.support.constraint.motion.MotionLayout>
