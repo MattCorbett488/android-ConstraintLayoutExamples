@@ -1,0 +1,13 @@
+### Transition tag
+
+A tag that specifies the transition in a MotionScene
+
+- Can be given an ID
+
+Attributes:
+
+- **constraintSetStart** used as start constraints (an ID) or layout file to get constraint from
+- **constraintSetEnd** same as constraintSetStart but for end
+- **interpolator** possible values: easeInOut, linear, anticipate, bounce, easeIn, easeOut
+- **duration** length of time for the transition (in ms)
+- **staggered** quick way to stagger the objects moving (float value)
