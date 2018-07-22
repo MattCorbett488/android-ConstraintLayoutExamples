@@ -7,19 +7,19 @@
 
     <android.support.constraint.utils.ImageFilterView
         android:id="@+id/saturationImage"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
-        app:srcCompat="@drawable/roard" />
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        app:srcCompat="@drawable/sanic" />
 
     <android.support.constraint.utils.ImageFilterView
         android:id="@+id/warmthImage"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
-        app:srcCompat="@drawable/roard" />
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        app:srcCompat="@drawable/sanic_16bit" />
 
     <android.support.constraint.utils.ImageFilterView
         android:id="@+id/contrastImage"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
-        app:srcCompat="@drawable/roard" />
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        app:srcCompat="@drawable/sanic_good" />
 </android.support.constraint.motion.MotionLayout>

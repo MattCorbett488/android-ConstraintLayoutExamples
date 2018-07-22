@@ -23,8 +23,8 @@
 
     <ConstraintSet android:id="@+id/startSaturation">
         <Constraint android:id="@id/saturationImage"
-            android:layout_width="64dp"
-            android:layout_height="64dp"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
             motion:layout_constraintTop_toTopOf="parent"
             motion:layout_constraintStart_toStartOf="parent"
             motion:layout_constraintBottom_toTopOf="@id/warmthImage">
@@ -33,8 +33,8 @@
                 motion:customFloatValue="0" />
         </Constraint>
         <Constraint android:id="@id/warmthImage"
-            android:layout_width="64dp"
-            android:layout_height="64dp"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
             motion:layout_constraintTop_toBottomOf="@id/saturationImage"
             motion:layout_constraintStart_toStartOf="parent"
             motion:layout_constraintBottom_toTopOf="@id/contrastImage">
@@ -43,8 +43,8 @@
                 motion:customFloatValue="0" />
         </Constraint>
         <Constraint android:id="@id/contrastImage"
-            android:layout_width="64dp"
-            android:layout_height="64dp"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
             motion:layout_constraintTop_toBottomOf="@id/warmthImage"
             motion:layout_constraintStart_toStartOf="parent"
             motion:layout_constraintBottom_toBottomOf="parent">
@@ -56,8 +56,8 @@
 
     <ConstraintSet android:id="@+id/endSaturation">
         <Constraint android:id="@id/saturationImage"
-            android:layout_width="64dp"
-            android:layout_height="64dp"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
             motion:layout_constraintTop_toTopOf="parent"
             motion:layout_constraintEnd_toEndOf="parent"
             motion:layout_constraintBottom_toTopOf="@id/warmthImage" >
@@ -66,8 +66,8 @@
                 motion:customFloatValue="2" />
         </Constraint>
         <Constraint android:id="@id/warmthImage"
-            android:layout_width="64dp"
-            android:layout_height="64dp"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
             motion:layout_constraintTop_toBottomOf="@id/saturationImage"
             motion:layout_constraintEnd_toEndOf="parent"
             motion:layout_constraintBottom_toTopOf="@id/contrastImage" >
@@ -76,8 +76,8 @@
                 motion:customFloatValue="2" />
         </Constraint>
         <Constraint android:id="@id/contrastImage"
-            android:layout_width="64dp"
-            android:layout_height="64dp"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
             motion:layout_constraintTop_toBottomOf="@id/warmthImage"
             motion:layout_constraintEnd_toEndOf="parent"
             motion:layout_constraintBottom_toBottomOf="parent" >
