@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.motion.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/scene_imagefilterview">
+
+    <android.support.constraint.utils.ImageFilterView
+        android:id="@+id/saturationImage"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        app:srcCompat="@drawable/roard" />
+
+    <android.support.constraint.utils.ImageFilterView
+        android:id="@+id/warmthImage"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        app:srcCompat="@drawable/roard" />
+
+    <android.support.constraint.utils.ImageFilterView
+        android:id="@+id/contrastImage"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        app:srcCompat="@drawable/roard" />
+</android.support.constraint.motion.MotionLayout>
